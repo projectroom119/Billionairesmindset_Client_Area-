@@ -3,13 +3,13 @@ const spinBtn = document.getElementById("spin-btn");
 const finalValue = document.getElementById("final-value");
 //Object that stores values of minimum and maximum angle for a value
 const rotationValues = [
-  { minDegree: 0, maxDegree: 30, value: "$2" },
-  { minDegree: 31, maxDegree: 90, value: "$12" },
-  { minDegree: 91, maxDegree: 150, value: "$24" },
-  { minDegree: 151, maxDegree: 210, value: "$50" },
-  { minDegree: 211, maxDegree: 270, value: "$80" },
-  { minDegree: 271, maxDegree: 330, value: "$100" },
-  { minDegree: 331, maxDegree: 360, value: "$250" },
+  { minDegree: 0, maxDegree: 30, value: 100 },
+  { minDegree: 31, maxDegree: 90, value: 200 },
+  { minDegree: 91, maxDegree: 150, value: 400 },
+  { minDegree: 151, maxDegree: 210, value: 500 },
+  { minDegree: 211, maxDegree: 270, value: 600 },
+  { minDegree: 271, maxDegree: 330, value: 800 },
+  { minDegree: 331, maxDegree: 360, value: 1000 },
 ];
 //Size of each piece
 const data = [16, 16, 16, 16, 16, 16];
