@@ -22,15 +22,13 @@
       window.addEventListener("load", () => {
         // Set a 10-second delay
         setTimeout(() => {
-          // Find the first link in the body
-          const link = document.querySelector("body a");
-          if (link) {
-            // Click the link
-            link.click();
-          } else {
-            console.warn("No link found in the body!");
-          }
-        }, 10000); // 10000 milliseconds = 10 seconds
+  const link = document.querySelector("body a");
+  if (link) {
+    window.location.href = link.href; // Redirects without triggering a popup block
+  } else {
+    console.warn("No link found in the body!");
+  }
+}, 10000);
       });
     </script>
   </body>
